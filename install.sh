@@ -56,7 +56,7 @@ echo "
 
 # Install terminal-emulator
 echo "Installing terminal emulator"
-sudo apt update -y kitty  #adding terminal configuration
+sudo apt install -y kitty  #adding terminal configuration
 
 # Install Window Manager and other packages
 sudo apt install -y light sway swaybg swayidle swayimg swaylock waybar wofi fonts-font-awesome
