@@ -10,6 +10,23 @@ Within the install.sh file, you can choose to install the following window manag
 
 **You can select between vanilla(non-customized) and completely customized (my personal customization)** 
 
+# Before installing
+
+# switch to root to append your username (es. debian) to the group of sudoers
+
+``` 
+su root
+
+apt update
+
+apt install sudo
+
+sudo usermod -aG sudo username
+
+sudo reboot
+
+``` 
+
 # Steps to follow for the installation
 
 ``` 
