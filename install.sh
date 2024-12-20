@@ -68,32 +68,32 @@ sudo apt install -y light sway swaybg swayidle swayimg swaylock waybar wofi font
 chmod +x setup.sh packages.sh
 
 # Run the setup script
-bash ~/sway/install_scripts/setup.sh
+bash ~/sway_installation/install_scripts/setup.sh
 
 clear
 
 # Run the extra packages
-bash ~/sway/install_scripts/packages.sh
+bash ~/sway_installation/install_scripts/packages.sh
 
 clear
 
 echo "Make sure a Display Manager is installed"
 
 # make sure gdm3 is installed
-bash ~/sway/install_scripts/gdm.sh
+bash ~/sway_installation/install_scripts/gdm.sh
 
 clear
 
 # add bashrc question
-bash ~/sway/install_scripts/add_bashrc.sh
+bash ~/sway_installation/install_scripts/add_bashrc.sh
 
 clear 
 
-bash ~/sway/install_scripts/printers.sh
+bash ~/sway_installation/install_scripts/printers.sh
 
 clear 
 
-bash ~/sway/install_scripts/bluetooth.sh
+bash ~/sway_installation/install_scripts/bluetooth.sh
 sudo apt autoremove
 
 printf "\e[1;32mYou can now reboot! Thank you.\e[0m\n"
