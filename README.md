@@ -13,9 +13,7 @@ Within the install.sh file, you can choose to install the following window manag
 # Steps to follow for the installation
 
 ``` 
-wget https://github.com/docgit27/sway_installation/install.sh
-
-cd ~/sway_installation 
+wget https://github.com/docgit27/sway_installation/raw/main/install.sh
 
 chmod +x install.sh
 
