@@ -1,0 +1,7 @@
+build-essential
+curl
+firefox-esr
+htop
+nano
+vim
+wget
