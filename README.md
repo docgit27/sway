@@ -12,7 +12,7 @@ Within the install.sh file, you can choose to install the following window manag
 
 # Before installing
 
-# switch to root to append your username (es. debian) to the group of sudoers
+# Switch to root to append your username to sudoers group
 
 ``` 
 su root
