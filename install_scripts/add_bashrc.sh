@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Would you like to overwrite your current .bashrc with the justaguylinux .bashrc? (y/n)"
+echo "Would you like to overwrite your current .bashrc with the new customized .bashrc? (y/n)"
 read response
 
 if [[ "$response" =~ ^[Yy]$ ]]; then
