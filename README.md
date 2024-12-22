@@ -30,7 +30,7 @@ sudo reboot
 # Steps to follow for the installation
 
 ``` 
-wget https://github.com/docgit27/sway_installation/raw/main/install.sh
+wget https://github.com/docgit27/sway/raw/main/install.sh
 
 chmod +x install.sh
 
